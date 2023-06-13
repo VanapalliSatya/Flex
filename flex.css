@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@500&family=Roboto&family=Trirong:wght@300&display=swap');
+
+body{
+    background-color: #321E1E;
+    /* margin: 50px; */
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+h1{
+    display: flex;
+    color: aliceblue;
+    font-family: 'Trirong', serif;
+    font-size: 3rem;
+    justify-content: flex-start;
+}
+
+
+
+.container{
+    display: flex;
+    gap: 20px;
+    flex-basis: 100px;
+    font-size: 1rem;
+    /* font-family: 'Fira Sans', sans-serif; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: skyblue;
+    justify-content: space-between;
+    font-family: 'Trirong', serif;
+}
+
+
+/* #home{
+    order: 2;
+
+}
+#about{
+    order: 2;
+} */
+
+.img-container{
+    display: inline-flex;
+    gap: 30px;
+}
+
+#para{
+    color: white;
+    float: right;
+}
+#taj{
+    color: white;
+    float: right;
+    font-size: 2rem;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Trirong', serif; */
